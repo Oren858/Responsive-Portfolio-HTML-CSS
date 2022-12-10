@@ -1,0 +1,176 @@
+.d-none {
+  display: none !important;
+}
+.d-block {
+  display: block !important;
+}
+
+/* ----------  START   Properties -  Navbar ------------------ */
+.d-flex{
+    
+    display: flex;
+
+}
+.ai-center{
+  align-items: center;
+}
+.flex-wrap{
+    flex-wrap: wrap !important;
+}
+.flex-wrap-reverse{
+    flex-wrap: wrap-reverse !important;
+}
+.content-between{
+    justify-content: space-between !important;
+}
+.content-center{
+    justify-content: center !important;
+}
+.content-end{
+    justify-content: center !important;
+}
+.align-items-center{
+    align-items: center !important;
+}
+
+.nav-links{
+    display: flex !important;
+    align-items: center ;
+    column-gap: 25px;
+    text-decoration: none !important;
+  
+}
+.direction-column{
+    flex-direction: column;
+}
+.direction-column-reverse{
+    flex-direction: column-reverse;
+}
+
+/* ----------  END   Properties -  Navbar ------------------ */
+
+
+
+/* ----------  START  ------  POSTION  ------------------ */
+
+.position-abs{
+    position: absolute !important;
+}
+.position-rel{
+    position: absolute !important;
+}
+.position-fixed{
+    position: fixed !important;
+}
+.position-abs-right-bottom{
+    position: absolute;
+    right: 0;
+    bottom: 0;
+}
+
+
+/* ----------  START  ------  POSTION  ------------------ */
+
+
+
+
+
+
+
+
+
+/* media---------------- STart SM Screen--------------- */
+@media (max-width: 768px) {
+  .sm-display-none {
+    display: none !important;
+  }
+  .sm-display-block {
+    display: block !important;
+  }
+  .sm-direction-column {
+    flex-direction: column !important;
+  }
+  .sm-direction-row {
+    flex-direction: row !important;
+  }
+ .sm-position-abs{
+     position: absolute !important;
+ }
+ .sm-position-rel{
+     position: relative !important;
+ }
+.sm-height-100vh{
+    height: 100vh;
+}
+.sm-wrap-revers{
+    flex-wrap: wrap-reverse !important;
+}
+.sm-wrap-wrap{
+    flex-wrap: wrap !important;
+    text-decoration: none;
+}
+.sm-content-center{
+  justify-content: center !important;
+}
+.top-left{
+top: 0;
+left: 0;
+
+}
+.sm-text-center{
+  text-align: center !important;
+}
+
+.md-w-100{
+  width: 100% !important;
+}
+
+}
+
+/* media---------------- End SM Screen--------------- */
+
+
+
+/* media---------------- STart MD Screen--------------- */
+@media (max-width: 992px) {
+  .md-display-none {
+    display: none !important;
+  }
+  .md-display-block {
+    display: block !important;
+  }
+  .md-direction-column {
+    flex-direction: column !important;
+  }
+  .md-w-100{
+    width: 100% !important;
+  }
+  .md-direction-row {
+    flex-direction: row !important;
+  }
+  .md-text-center{
+    text-align: center !important;
+  }
+  
+}
+
+/* media---------------- End MD Screen--------------- */
+
+
+/* media---------------- STart LG Screen--------------- */
+
+@media (min-width: 1200px) {
+  .lg-display-none {
+    display: none !important;
+  }
+  .lg-display-block {
+    display: block !important;
+  }
+  .lg-direction-column {
+    flex-direction: column !important;
+  }
+  .lg-direction-row {
+    flex-direction: row !important;
+  }
+}
+/* media---------------- End LG Screen--------------- */

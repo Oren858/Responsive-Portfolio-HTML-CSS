@@ -1,0 +1,199 @@
+/* Start Translate X and Y */
+.tr-center {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -webkit-transform: translate(-50%, -50%);
+  -moz-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  -o-transform: translate(-50%, -50%);
+}
+
+.tr-x-center {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  -webkit-transform: translateX(-50%);
+  -moz-transform: translateX(-50%);
+  -ms-transform: translateX(-50%);
+  -o-transform: translateX(-50%);
+}
+.tr-y-center {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  -webkit-transform: translateY(-50%);
+  -moz-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  -o-transform: translateY(-50%);
+}
+/* End Translate X and Y */
+/* Start Positions */
+.p-rel {
+  position: relative !important;
+}
+.p-abs {
+  position: absolute !important;
+}
+.p-fix {
+  position: fixed !important;
+}
+.p-sticky {
+  position: sticky !important;
+}
+.top-0 {
+  top: 0;
+}
+.left-0 {
+  left: 0;
+}
+.right-0 {
+  right: 0;
+}
+.bottom-0 {
+  bottom: 0;
+}
+.top-50 {
+  top: 50%;
+}
+.left-50 {
+  left: 50%;
+}
+.right-50 {
+  right: 50%;
+}
+.bottom-50 {
+  bottom: 50%;
+}
+.inset-0 {
+  inset: 0;
+}
+/* Start Positions */
+/* Start radius */
+.radius-5 {
+  border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+}
+.radius-10 {
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+}
+.radius-50 {
+  border-radius: 50% !important;
+  -webkit-border-radius: 50% !important;
+  -moz-border-radius: 50% !important;
+  -ms-border-radius: 50% !important;
+  -o-border-radius: 50% !important;
+}
+/* End Border radius */
+/* Grid  */
+.d-grid {
+  display: grid;
+}
+.grid-1000 {
+  grid-template-columns: repeat(auto-fit, minmax(1000px, 1fr));
+}
+.grid-900 {
+  grid-template-columns: repeat(auto-fit, minmax(900px, 1fr));
+}
+.grid-800 {
+  grid-template-columns: repeat(auto-fit, minmax(800px, 1fr));
+}
+.grid-700 {
+  grid-template-columns: repeat(auto-fit, minmax(700px, 1fr));
+}
+.grid-600 {
+  grid-template-columns: repeat(auto-fit, minmax(600px, 1fr));
+}
+.grid-550 {
+  grid-template-columns: repeat(auto-fit, minmax(550px, 1fr));
+}
+.grid-500 {
+  grid-template-columns: repeat(auto-fit, minmax(500px, 1fr));
+}
+.grid-450 {
+  grid-template-columns: repeat(auto-fit, minmax(450px, 1fr));
+}
+.grid-400 {
+  grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+}
+.grid-350 {
+  grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+}
+.grid-300 {
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+}
+.grid-250 {
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+}
+.grid-200 {
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+}
+.grid-150 {
+  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+}
+.grid-100 {
+  grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+}
+.grid-50 {
+  grid-template-columns: repeat(auto-fit, minmax(50px, 1fr));
+}
+
+/* Deal with grid fr unit */
+.grid-col-1 {
+  display: grid;
+  grid-template-columns: 1fr;
+}
+.grid-col-2 {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+.grid-col-3 {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
+
+.grid-col-4 {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+}
+.grid-col-5 {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+}
+.grid-col-6 {
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+}
+.grid-col-7 {
+  display: grid;
+  grid-template-columns: repeat(7, 1fr);
+}
+.grid-col-8 {
+  display: grid;
+  grid-template-columns: repeat(8, 1fr);
+}
+.grid-col-9 {
+  display: grid;
+  grid-template-columns: repeat(9, 1fr);
+}
+.grid-col-10 {
+  display: grid;
+  grid-template-columns: repeat(10, 1fr);
+}
+.grid-col-11 {
+  display: grid;
+  grid-template-columns: repeat(11, 1fr);
+}
+.grid-col-11 {
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+}
+
