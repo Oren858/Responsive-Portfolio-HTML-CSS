@@ -3,21 +3,17 @@ const language = document.querySelector(".lang");
 const list = document.querySelector(".list");
 language.addEventListener("click", (e) => {
   language.classList.toggle("active");
-  if (language.classList.contains("active")) {
-    list.classList.add("active");
-  } else {
-    list.classList.remove("active");
-  }
+  list.classList.toggle("active");
 });
 
 // Add active class to nav links
 const navLinks = Array.from(document.querySelectorAll("nav ul li > a"));
-navLinks.forEach((link, index) => {
+navLinks.forEach((link) => {
   link.addEventListener("click", (e) => {
     navLinks.forEach((currentItem) => {
       currentItem.classList.remove("active");
     });
-    e.currentTarget.classList.add("active");
+    e.target.classList.add("active");
   });
 });
 
